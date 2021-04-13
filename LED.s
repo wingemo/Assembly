@@ -37,6 +37,7 @@ COUNTDOWN:
 	
 TIMER:
 	movia	r8, 0x989757 # Is this value reasonable? 0xffffff
+	
 START_TIMER:
 	subi	r8,r8,0x1
 	bne	r8,r0, START_TIMER

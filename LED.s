@@ -9,9 +9,6 @@ _start:
 	movia  r12,0x1
 	movia	r9, 0xaaaaaaaa
 	
-# This segment writes to the green LEDs, waits
-# for the timer and then turns the green LEDs off.
-	
 # This segment writes to the red LEDs, waits
 # for the timer and then turns the red LEDs off.
 RED: 
@@ -23,6 +20,8 @@ RED:
 	call      COUNTDOWN
 	br        RED
 
+# This segment writes to the green LEDs, waits
+# for the timer and then turns the green LEDs off.
 GREEN:
 	movia	r8, 0xfff
 	stwio	r8,0(r18)

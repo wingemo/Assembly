@@ -1,6 +1,6 @@
-<h1 align="center">Arduino uno assembly programming
+<h1 align="center">Arduino uno assembly programming</h1>
 ![Single--board microcontroller](https://img.shields.io/badge/Single--board%20microcontroller-Arduino%20Uno-blue)
-</h1>
+
 
 # About the project
 

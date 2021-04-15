@@ -52,6 +52,7 @@ PUT_JTAG:
   andhi   r4, r4, 0xffff  /* check for write space */	
   beq     r4, r0, END_PUT /* if no space, ignore the character */
   stwio   r5, 0(r6)  /* send the character */
+  movia   r5, r7
 
 END_PUT:
   POP     r5 /* restore registers */

@@ -24,7 +24,7 @@ _start:
 /* set up stack pointer */
 movia sp, 0x007FFFFC /* stack starts from highest memory address in SDRAM */
 movia r6, 0x10001000 /* JTAG UART base address */
-movia r7, 0x00000010 /* */
+movia r7, 0x00000010 /* Seven-segment display base adress */
 
 /* print a text string */
 movia r8, TEXT_STRING

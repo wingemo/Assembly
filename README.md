@@ -1,5 +1,4 @@
-# Assembly
-Arduino uno assembly programming
+<h1 align="center">Arduino uno assembly programming</h1>
 
 # About the project
 

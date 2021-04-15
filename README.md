@@ -1,5 +1,5 @@
 <h1 align="center">Arduino uno assembly programming</h1>
-https://img.shields.io/cocoapods/p/Arduino
+image:https://img.shields.io/cocoapods/p/Arduino[Cocoapods platforms]
 # About the project
 
 ### LEDs.c

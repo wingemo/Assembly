@@ -1,5 +1,5 @@
 <h1 align="center">Arduino uno assembly programming</h1>
-[![start with why](https://img.shields.io/badge/start%20with-why%3F-brightgreen.svg?style=flat)]
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/facebook/react/blob/master/LICENSE)
 
 # About the project
 

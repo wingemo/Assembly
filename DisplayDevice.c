@@ -31,7 +31,7 @@ movia r8, TEXT_STRING
 
 MAIN_LOOP:
   ldb     r5, 0(r8)
-  beq     r5, zero, */
+  beq     r5, zero, 
   call    PUT_JTAG
   addi    r8, r8, 1
   br      MAIN_LOOP

@@ -1,5 +1,5 @@
 <h1 align="center">Arduino uno assembly programming</h1>
-https://img.shields.io/badge/<LABEL>-<MESSAGE>-<COLOR>
+https://img.shields.io/badge/<lol>-<hello>-<blue>
 
 # About the project
 

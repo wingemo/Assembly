@@ -2,7 +2,9 @@
 
 
 
+<center>
 ![Single--board microcontroller](https://img.shields.io/badge/Single--board%20microcontroller-Arduino%20Uno-blue)
+</center>  
 # About the project
 
 ### LEDs.c

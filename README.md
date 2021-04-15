@@ -1,6 +1,6 @@
 <h1 align="center">Arduino uno assembly programming</h1>
-[![made-with-Assembly](https://img.shields.io/badge/Made%20with-Go-1f425f.svg)](http://golang.org)
- ![Maintaner](https://img.shields.io/badge/maintainer-theMaintainer-blue)
+![made-with-Assembly](https://img.shields.io/badge/Made%20with-Go-1f425f.svg)
+
 # About the project
 
 ### LEDs.c

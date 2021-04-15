@@ -1,7 +1,7 @@
 # Assembly
 Arduino uno assembly programming
 
-## About the project
+# About the project
 
 ### LEDs.c
 The program should first turn on all the odd red lights and then the even red lights. 

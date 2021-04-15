@@ -1,10 +1,7 @@
-<h1 align="center">Arduino uno assembly programming</h1>
-
-
-
-<center>
+<h1 align="center">Arduino uno assembly programming
 ![Single--board microcontroller](https://img.shields.io/badge/Single--board%20microcontroller-Arduino%20Uno-blue)
-</center>  
+</h1>
+
 # About the project
 
 ### LEDs.c

@@ -8,8 +8,8 @@
 
 .text
 .global _start
-		
 _start:
+
 # These addresses needs to be set to the correct values
 	movia	r17,0x10000000	# Address for the red LEDs
 	movia	r18,0x10000010	# Address for the green LEDs

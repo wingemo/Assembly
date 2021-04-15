@@ -1,7 +1,7 @@
 <h1 align="center">Arduino uno assembly programming</h1>
-
+<p align="center">
 ![Single--board microcontroller](https://img.shields.io/badge/Single--board%20computer-Arduino%20Uno-blue)  ![Single--board microcontroller](https://img.shields.io/badge/Web--based%20simulator%20-Nios%20II%20-blue)  ![Single--board microcontroller](https://img.shields.io/badge/Applications-3-blue) 
-
+</p>
 # About the project
 
 # Applications

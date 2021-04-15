@@ -1,6 +1,8 @@
 <h1 align="center">Arduino uno assembly programming</h1>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="182" height="20" role="img" aria-label="Single-board microcontroller: c">
 
+
+
+[Single--board microcontroller](https://img.shields.io/badge/Single--board%20microcontroller-Arduino%20Uno-blue)
 # About the project
 
 ### LEDs.c

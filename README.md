@@ -1,5 +1,5 @@
 <h1 align="center">Arduino uno assembly programming</h1>
-https://img.shields.io/badge/<lol>-<hello>-<blue>
+[![start with why](https://img.shields.io/badge/start%20with-why%3F-brightgreen.svg?style=flat)]
 
 # About the project
 

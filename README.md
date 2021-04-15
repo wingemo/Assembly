@@ -1,5 +1,5 @@
 <h1 align="center">Arduino uno assembly programming</h1>
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/facebook/react/blob/master/LICENSE)
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="182" height="20" role="img" aria-label="Single-board microcontroller: c">
 
 # About the project
 

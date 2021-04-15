@@ -56,7 +56,6 @@ END_PUT:
   POP     r5 /* restore registers */
   ret
 
-
 TEXT_STRING:
 .asciz "\nHello World!\n> "
 

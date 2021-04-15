@@ -12,18 +12,18 @@ global _start
 _start:
 
 .macro PUSH reg
-  subi sp, sp, 4  /* reserve space on the stack */
-  stw \reg, 0(sp) /* save register */
-.endm
-
+  subi    sp, sp, 4  /* reserve space on the stack */
+  stw     \reg, 0(sp) /* save register */
+.endm 
+  
 .macro POP reg
   ldw     r4, 0(sp) /* restore registers */
   addi    sp, sp, 4 
 .endm
 
 /* set up stack pointer */
-movia sp, 0x007FFFFC /* stack starts from highest memory address in SDRAM */
-movia r6, 0x10001000 /* JTAG UART base address */
+movia sp,  0x007FFFFC /* stack starts from highest memory address in SDRAM */
+movia r6,  0x10001000 /* JTAG UART base address */
 
 /* print a text string */
 movia r8,  TEXT_STRING
@@ -58,6 +58,6 @@ END_PUT:
 
 
 TEXT_STRING:
-.asciz "\nHello World!\n> "
+.asciz    "\nHello World!\n> "
 
 .end

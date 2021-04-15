@@ -1,3 +1,11 @@
+********************************************************************************
+* This program demonstrates use of red and green lights
+*
+* It performs the following:
+* 1. Turn on and off every other RED LEDs
+* 2. Every fifth time all the green lights turn on
+********************************************************************************/
+
 .text
 .global _start
 		

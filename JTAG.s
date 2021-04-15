@@ -26,11 +26,11 @@ movia sp,  0x007FFFFC /* stack starts from highest memory address in SDRAM */
 movia r6,  0x10001000 /* JTAG UART base address */
 
 /* print a text string */
-movia r8,  TEXT_STRING
+movia r8, TEXT_STRING
 
 MAIN_LOOP:
   ldb     r5, 0(r8)
-  beq     r5, zero, GET_JTAG 
+  beq     r5, zero, */
   call    PUT_JTAG
   addi    r8, r8, 1
   br      MAIN_LOOP
@@ -58,6 +58,6 @@ END_PUT:
 
 
 TEXT_STRING:
-.asciz    "\nHello World!\n> "
+.asciz "\nHello World!\n> "
 
 .end

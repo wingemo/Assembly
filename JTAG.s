@@ -8,7 +8,7 @@
 ********************************************************************************/
 
 .text /* executable code follows */
-global _start
+.global _start
 _start:
 
 .macro PUSH reg
@@ -30,7 +30,7 @@ movia r8, TEXT_STRING
 
 MAIN_LOOP:
   ldb     r5, 0(r8)
-  beq     r5, zero, */
+  beq     r5, zero, GET_JTAG
   call    PUT_JTAG
   addi    r8, r8, 1
   br      MAIN_LOOP

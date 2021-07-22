@@ -1,6 +1,6 @@
 
 
-# Assembly Applications :technologist:
+# Assembly :technologist:
 ![GitHub Logo](https://img.shields.io/badge/Version-1.0.0-blue) ![GitHub Logo](https://img.shields.io/badge/-Socket.io-blue) ![GitHub Logo](https://img.shields.io/badge/-Node.js-blue) 
 
 ## LEDs

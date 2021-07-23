@@ -17,4 +17,4 @@ you type in the keyboard.
 
 ## Documentation :man_student:
 
-- [Nios II Classic Processor Reference Guide](https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/hb/nios2/n2cpu_nii5v1.pdf) 
+- [Nios II Processor Reference Guide](https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/hb/nios2/n2cpu_nii5v1.pdf) 

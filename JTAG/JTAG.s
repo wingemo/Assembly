@@ -22,11 +22,11 @@ _start:
 .endm
 
 /* set up stack pointer */
-movia sp, 0x007FFFFC /* stack starts from highest memory address in SDRAM */
-movia r6, 0x10001000 /* JTAG UART base address */
+  movia sp, 0x007FFFFC /* stack starts from highest memory address in SDRAM */
+  movia r6, 0x10001000 /* JTAG UART base address */
 
 /* print a text string */
-movia r8, TEXT_STRING
+  movia r8, TEXT_STRING
 
 MAIN_LOOP:
   ldb     r5, 0(r8)
@@ -57,7 +57,7 @@ END_PUT:
   ret
 
 TEXT_STRING:
-.asciz "\nHello World!\n> "
+  .asciz "\nHello World!\n> "
 
 END:
   .end

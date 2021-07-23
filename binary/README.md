@@ -2,10 +2,10 @@
 
 ## Pseudocode to Assembly
 **Pseudocode**
-```python
+```c
    x = 3737816576
    y = 3737816576
-   a = x + y
+   sum = x + y
 ```
 
 **Assembly**

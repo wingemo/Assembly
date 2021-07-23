@@ -10,7 +10,7 @@
 ```assembly
    movia r9,  0xDECA8E00
    movia r10, 0xDECA8E00
-   add   r8,  r9, r10
+   add   r8,  r9,  r10
 ```
 # Assembly to Machine code
 **movia r9,  0xDECA8E00**

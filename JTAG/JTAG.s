@@ -59,4 +59,5 @@ END_PUT:
 TEXT_STRING:
 .asciz "\nHello World!\n> "
 
-.end
+END:
+  .end

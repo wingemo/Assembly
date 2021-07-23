@@ -5,7 +5,7 @@ what you call machine code. A compiler could also produce
 machine code directly ~ [Richard](https://www.google.com). 
 
 
-To write in assembly is to understand exactly how the processor and memory work together to "make things happen". Convert high level code to machine code will help you understand how things work behind the scenes.
+To write in assembly is to understand exactly how the processor and memory work together to "make things happen". Convert high level code to machine instructions will help you understand how things work behind the scenes.
 
 ## Pseudocode to Assembly
 **Pseudocode**

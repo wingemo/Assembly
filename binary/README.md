@@ -1,4 +1,4 @@
-# Pseudocode to Assembly
+## Pseudocode to Assembly
 **Pseudocode**
 ```python
    x = 3737816576
@@ -12,7 +12,7 @@
    movia r10, 0xDECA8E00
    add   r8,  r9,  r10
 ```
-# Assembly to Machine code
+## Assembly to Machine code
 **movia r9,  0xDECA8E00**
 | A  | B | IMM16 | OP = 0x34 |
 | ------------- | ------------- | ------------- | ------------- |

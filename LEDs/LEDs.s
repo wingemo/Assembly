@@ -9,11 +9,11 @@
 .text
 .global _start
 _start:
-	movia	r17,0x10000000	# Address for the red LEDs
-	movia	r18,0x10000010	# Address for the green LEDs
-	movia   r10,0x4
-	movia   r12,0x1
-	movia	r9, 0xaaaaaaaa
+  movia	r17,0x10000000	# Address for the red LEDs
+  movia	r18,0x10000010	# Address for the green LEDs
+  movia r10,0x4
+  movia r12,0x1
+  movia	r9, 0xaaaaaaaa
 	
 # This segment writes to the red LEDs, waits
 # for the timer and then turns the red LEDs off.

@@ -15,3 +15,9 @@ A program in Assembly that reads from the JTAG port
 and then send back the same data to the JTAG port. i.e. You should be able to see in the UART window what
 you type in the keyboard.
 
+## Documentation :man_student:
+
+- [Instruction Set Reference](https://socket.io/docs/v4) 
+- [Node.js](https://socket.io/docs/v4) 
+- [Jquery](https://socket.io/docs/v4) 
+- [Bootstrap](https://socket.io/docs/v4) 

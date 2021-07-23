@@ -17,9 +17,8 @@ you type in the keyboard.
 
 ## Binary :dolphin: 
 
-To write in assembly is to understand exactly how 
-the processor and memory work together to "make things happen".
-Convert high level code to machine instructions will help you understand how things work behind the scenes.
+A project where i convert high level code to machine instructions 
+becouse i want to understand how things work behind the scenes.
 
 ## Documentation :man_student:
 

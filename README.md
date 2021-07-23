@@ -3,7 +3,8 @@
 # Assembly :technologist:
 ![GitHub Logo](https://img.shields.io/badge/Version-1.0.0-blue) ![GitHub Logo](https://img.shields.io/badge/-Assembly-blue) ![GitHub Logo](https://img.shields.io/badge/-Nios_II-blue)
 
-"To write in assembly is to understand exactly how the processor and memory work together to make things happen" ~ Buddy James
+In the words of Abraham Lincoln:
+> "To write in assembly is to understand exactly how the processor and memory work together to make things happen" ~ Buddy James
 
 [Web-based simulator for Nios II]( https://cpulator.01xz.net/?sys=nios-de2)
 

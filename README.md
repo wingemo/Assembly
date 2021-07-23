@@ -3,6 +3,8 @@
 # Assembly :technologist:
 ![GitHub Logo](https://img.shields.io/badge/Version-1.0.0-blue) ![GitHub Logo](https://img.shields.io/badge/-Assembly-blue) ![GitHub Logo](https://img.shields.io/badge/-Node.js-blue) 
 
+[Web-based simulator for Nios II]( https://cpulator.01xz.net/?sys=nios-de2)
+
 ## LEDs :whale:
 The program should first turn on all the odd red lights and then the even red lights. 
 Every fifth time all the green lights turn on. This should be repeated 

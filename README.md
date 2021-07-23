@@ -17,7 +17,4 @@ you type in the keyboard.
 
 ## Documentation :man_student:
 
-- [Instruction Set Reference](https://socket.io/docs/v4) 
-- [Node.js](https://socket.io/docs/v4) 
-- [Jquery](https://socket.io/docs/v4) 
-- [Bootstrap](https://socket.io/docs/v4) 
+- [Nios II Classic Processor Reference Guide](https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/hb/nios2/n2cpu_nii5v1.pdf) 

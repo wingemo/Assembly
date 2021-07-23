@@ -24,10 +24,14 @@ This is a project where i convert high level code to machine instructions becous
 <h5>
 
 **movia r9,  0xDECA8E00**
+
+```
 | A  | B | IMM16 | OP = 0x34 |
 | ------------- | ------------- | ------------- | ------------- |
 | 0 0 0 0 0  | 0 1 0 1 0  | 1 1 0 1 1 1 1 0 1 1 0 0 1 0 1 1  | 1 1 0 1 0 0  |
 | 0 1 0 0 1  | 0 1 0 1 0  | 1 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0  | 0 0 0 1 0 0  |
+
+```
 
 **movia r10,  0xDECA8E00**
 | A  | B | IMM16 | OP = 0x34 |

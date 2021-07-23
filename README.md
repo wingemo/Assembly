@@ -15,6 +15,8 @@ A program in Assembly that reads from the JTAG port
 and then send back the same data to the JTAG port. i.e. You should be able to see in the UART window what
 you type in the keyboard.
 
+## Binary :dolphin: 
+
 ## Documentation :man_student:
 
 - [Nios II Processor Reference Guide](https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/hb/nios2/n2cpu_nii5v1.pdf) 

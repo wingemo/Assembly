@@ -1,4 +1,4 @@
-text.
+.text
 .global _start
 _start:
 	 movia r6,  0x10000040 /* Switches base address */

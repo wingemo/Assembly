@@ -17,6 +17,10 @@ you type in the keyboard.
 
 ## Binary :dolphin: 
 
+To write in assembly is to understand exactly how 
+the processor and memory work together to "make things happen".
+Convert high level code to machine instructions will help you understand how things work behind the scenes.
+
 ## Documentation :man_student:
 
 - [Nios II Processor Reference Guide](https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/hb/nios2/n2cpu_nii5v1.pdf) 

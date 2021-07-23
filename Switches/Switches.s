@@ -11,3 +11,4 @@ MAIN_LOOP:
 	 br      MAIN_LOOP
 
 END:
+         .end

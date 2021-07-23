@@ -5,7 +5,6 @@
 * 1. Turn on and off every other RED LEDs
 * 2. Every fifth time all the green lights turn on
 ********************************************************************************/
-
 .text
 .global _start
 _start:
@@ -29,24 +28,24 @@ RED:
 # This segment writes to the green LEDs, waits
 # for the timer and then turns the green LEDs off.
 GREEN:
-	movia	r8, 0xfff
-	stwio	r8,0(r18)
-	call	TIMER
-	stwio	r0,0(r18)
-	br      END
+  movia	r8, 0xfff
+  stwio	r8,0(r18)
+  call	TIMER
+  stwio	r0,0(r18)
+  br    END
 
 COUNTDOWN:
-	subi    r10,r10,0x1
-	beq     r10,r0, GREEN  
-	ret 
+  subi  r10,r10,0x1
+  beq   r10,r0, GREEN  
+  ret 
 	
 TIMER:
-	movia	r8, 0x989757 
+  movia	r8, 0x989757 
 	
 START_TIMER:
-	subi	r8,r8,0x1
-	bne	r8,r0, START_TIMER
-	ret
+  subi	r8,r8,0x1
+  bne	r8,r0, START_TIMER
+  ret
 		
 END:
-       .end
+  .end

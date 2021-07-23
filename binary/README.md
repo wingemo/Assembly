@@ -1,4 +1,4 @@
-# Translate pseudocode into machine instructions
+# Translate pseudocode into machine instructions 🔭
 
 ## Pseudocode to Assembly
 **Pseudocode**

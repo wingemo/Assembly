@@ -6,7 +6,6 @@
 * 2. reads character data from the JTAG UART
 * 3. echos the character data back to the JTAG UART
 ********************************************************************************/
-
 .text /* executable code follows */
 .global _start
 _start:

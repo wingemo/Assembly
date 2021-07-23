@@ -18,13 +18,13 @@ _start:
 # This segment writes to the red LEDs, waits
 # for the timer and then turns the red LEDs off.
 RED: 
-	srl     r9, r9, r12
-        mov     r8, r9
-	stwio	r8,0(r17)
-	call	TIMER
-	stwio	r0,0(r17)
-	call    COUNTDOWN
-	br      RED
+  srl   r9, r9, r12
+  mov   r8, r9
+  stwio	r8, 0(r17)
+  call	TIMER
+  stwio	r0, 0(r17)
+  call  COUNTDOWN
+  br    RED
 
 # This segment writes to the green LEDs, waits
 # for the timer and then turns the green LEDs off.

@@ -40,6 +40,7 @@ This is a project where i convert high level code to machine instructions becous
 | 0 1 0 0 1  | 0 1 0 1 0 | 0 1 0 0 0 | 1 1 0 0 0 1 | 0 0 0 0 0 | 1 1 1 0 1 0 |
 
 ## Final result
+<h5>
 >  0 0 0 0 0 0 1 0 1 0 1 1 0 1 1 1 1 0 1 1 0 0 1 0 1 1 1 1 0 1 0 0 <br>
 >  0 1 0 0 1 0 1 0 1 0 1 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 <br>
 >  0 0 0 0 0 0 1 0 0 1 1 1 0 1 1 1 1 0 1 1 0 0 1 0 1 1 1 1 0 1 0 0 <br>

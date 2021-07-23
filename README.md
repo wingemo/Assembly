@@ -1,7 +1,7 @@
 
 
 # Assembly :technologist:
-![GitHub Logo](https://img.shields.io/badge/Version-1.0.0-blue) ![GitHub Logo](https://img.shields.io/badge/-Assembly-blue) ![GitHub Logo](https://img.shields.io/badge/-NiosII-blue)
+![GitHub Logo](https://img.shields.io/badge/Version-1.0.0-blue) ![GitHub Logo](https://img.shields.io/badge/-Assembly-blue) ![GitHub Logo](https://img.shields.io/badge/-Nios_II-blue)
 
 [Web-based simulator for Nios II]( https://cpulator.01xz.net/?sys=nios-de2)
 

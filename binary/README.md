@@ -21,11 +21,8 @@ This is a project where I convert high level code to machine instructions becous
    add   r8,  r9,  r10
 ```
 ## Assembly to Machine code
-<h5>
 
 **movia r9,  0xDECA8E00**
-
-
 | A  | B | IMM16 | OP = 0x34 |
 | ------------- | ------------- | ------------- | ------------- |
 | 0 0 0 0 0  | 0 1 0 1 0  | 1 1 0 1 1 1 1 0 1 1 0 0 1 0 1 1 | 1 1 0 1 0 0  |

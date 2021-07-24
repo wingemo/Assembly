@@ -20,7 +20,7 @@ you type in the keyboard.
 
 ## Binary :dolphin: 
 
-A project where i convert high level code to machine instructions 
+A project where I convert high level code to machine instructions 
 becouse i want to understand how things work behind the scenes.
 
 ## Documentation :man_student:

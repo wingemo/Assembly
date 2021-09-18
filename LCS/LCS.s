@@ -13,20 +13,16 @@ SETUP:
 MAIN_LOOP:
   call  READ_SWITCHES
   call  READ_BUTTONS
-  call  LIT_LEDS
   br    MAIN_LOOP
   
 READ_SWITCHES:
   ldwio r4, (r19)
+  stwio	r4, 0(r8)
+  mov   r4, r0
   ret 
   
 READ_BUTTONS:  
   ldwio r4, (r19)
-  ret 
-
-LIT_LEDS:
-  stwio	r4, 0(r8)
-  mov   r4, r0
   ret 
 
 END:

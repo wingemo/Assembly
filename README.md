@@ -14,7 +14,7 @@ and then send back the same data to the JTAG port. i.e. You should be able to se
 you type in the keyboard.
 
 ## LCS
-Lighting control system that provide the ability to automatically adjust a lighting device's output based on switches and buttons.
+Lighting control system that provide the ability to automatically adjust a lighting device's output based on switches.
 
 ## LEDs :whale:
 The program should first turn on all the odd red lights and then the even red lights. 

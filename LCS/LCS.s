@@ -9,19 +9,27 @@
 .text /* executable code follows */
 .global _start
 _start:
-  movia	r17,0x10000000	# Address for the red LEDs
-  movia	r18,0x10000010	# Address for the green LEDs
-  movia	r19,0x10000040	# Address for switches
-  movia	r20,0x10000050	# Address for buttons
+  # Address for the red LEDs
+  movhi r17, 4096
+  addi  r17, r17, 0
+  # Address for the green LEDs
+  movhi r18, 4096
+  addi  r18, r18, 16
+  # Address for switches
+  movhi r19, 4096
+  addi  r19, r19, 64
+  # Address for buttons
+  movhi r20, 4096
+  addi  r20, r20, 80
   
 SETUP: 
   mov   r8, r18
-  call  MAIN_LOOP
+  call  0x28
   
 MAIN_LOOP:
-  call  READ_SWITCHES
-  call  READ_BUTTONS
-  br    MAIN_LOOP
+  call  0x34
+  call  0x44
+  br    0x28
   
 READ_SWITCHES:
   ldwio r4, (r19)

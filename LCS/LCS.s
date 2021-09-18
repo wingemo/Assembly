@@ -9,7 +9,6 @@
 .text /* executable code follows */
 .global _start
 _start:
-
   # Address for the green LEDs
   movhi r18, 4096
   addi  r18, r18, 16

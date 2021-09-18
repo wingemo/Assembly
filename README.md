@@ -19,7 +19,7 @@ and then send back the same data to the JTAG port. i.e. You should be able to se
 you type in the keyboard.
 
 ## LCS
-Lighting control system
+Lighting control system that provide the ability to automatically adjust a lighting device's output based on switches.
 
 ## Binary :fish:
 

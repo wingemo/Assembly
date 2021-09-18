@@ -18,7 +18,7 @@ A program in Assembly that reads from the JTAG port
 and then send back the same data to the JTAG port. i.e. You should be able to see in the UART window what
 you type in the keyboard.
 
-## SORT QUEUE
+## Lighting control system
 
 
 ## Binary :fish:

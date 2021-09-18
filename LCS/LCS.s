@@ -22,10 +22,6 @@ _start:
   movhi r20, 4096
   addi  r20, r20, 80
   
-SETUP: 
-  mov   r8, r18
-  call  0x28
-  
 MAIN_LOOP:
   call  0x34
   call  0x44

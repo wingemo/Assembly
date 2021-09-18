@@ -1,7 +1,7 @@
 .text /* executable code follows */
 .global _start
 _start:
-movia	r17,0x10000000	# Address for the red LEDs
+  movia	r17,0x10000000	# Address for the red LEDs
   movia	r18,0x10000010	# Address for the green LEDs
   movia	r19,0x10000040	# Address for switches
   movia	r20,0x10000050	# Address for buttons

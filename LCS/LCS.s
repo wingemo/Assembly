@@ -13,7 +13,7 @@ MAIN_LOOP:
   ldwio r4, (r19)
   stwio	r4, 0(r18)
   mov   r4, r0
-  br    0x20
+  br    MAIN_LOOP
   
 END:
   .end

@@ -1,3 +1,11 @@
+********************************************************************************
+* This program demonstrates use of the JTAG UART port
+*
+* It performs the following:
+* 1. sends a text string to the JTAG UART
+* 2. reads character data from the JTAG UART
+* 3. echos the character data back to the JTAG UART
+********************************************************************************/
 .text /* executable code follows */
 .global _start
 _start:

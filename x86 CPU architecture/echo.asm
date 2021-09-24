@@ -1,6 +1,6 @@
 global _start
 
-
+SECTION .data
     file db 'data.txt', 0h    
 section .bss
     input: resb 4   
@@ -18,6 +18,7 @@ _start:
     mov     eax, 3        ; invoke SYS_READ (kernel opcode 3)
     int     80h
 
+    ; System call (sys_write)
     mov     edx, 12       ; number of bytes to write - one for each letter of our contents string
     mov     ecx, input    ; move the memory address of our contents string into ecx
     mov     ebx, file     ; move the file descriptor of the file we created into ebx

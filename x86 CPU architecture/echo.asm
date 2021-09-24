@@ -8,7 +8,7 @@ section .bss
 section .text   
 _start:
 
-    MAIN_LOOP:
+    INPUT_LOOP:
     push    ecx           ; save away the return address
 
     ; System call (sys_read) 
@@ -19,14 +19,14 @@ _start:
     int     80h
 
     ; System call (sys_write)
-    mov     edx, 12       ; number of bytes to write - one for each letter of our contents string
+    mov     edx, 1        ; number of bytes to write - one for each letter of our contents string
     mov     ecx, input    ; move the memory address of our contents string into ecx
     mov     ebx, file     ; move the file descriptor of the file we created into ebx
     mov     eax, 4        ; invoke SYS_WRITE (kernel opcode 4)
     int     80h 
 
     pop     ecx           ; restore return address
-    loop    MAIN_LOOP  
+    loop    INPUT_LOOP  
 
     ; System call (sys_write) 
     mov     ecx, input    ; Store arguments to the system cal,  move the memory address of sum into ecx

@@ -2,6 +2,7 @@ global _start
 
 SECTION .data
     file db 'data.txt', 0h    
+
 section .bss
     input: resb 4   
     

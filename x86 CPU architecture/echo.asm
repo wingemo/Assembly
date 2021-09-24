@@ -5,7 +5,7 @@ SECTION .data
     f_id dq 0              ; File descriptor
 
 section .bss
-    input: resb 4   
+    input: resb 10
     
 section .text   
 _start:
@@ -22,14 +22,14 @@ _start:
     push    ecx           ; save away the return address
 
     ; System call (sys_read) 
-    mov     edx, 1        ; number of bytes to read
+    mov     edx, 10       ; number of bytes to read
     mov     ecx, input    ; reserved space to store our input (known as a buffer)
     mov     ebx, 0        ; write to the STDIN file
     mov     eax, 3        ; invoke SYS_READ (kernel opcode 3)
     int     80h
 
     ; System call (sys_write)
-    mov     edx, 1        ; number of bytes to write - one for each letter of our contents string
+    mov     edx, 10       ; number of bytes to write - one for each letter of our contents string
     mov     ecx, input    ; move the memory address of our contents string into ecx
     mov     ebx, f_id     ; move the file descriptor of the file we created into ebx
     mov     eax, 4        ; invoke SYS_WRITE (kernel opcode 4)

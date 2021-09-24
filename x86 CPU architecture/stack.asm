@@ -1,6 +1,7 @@
 global _start
 
 SECTION .data
+    sum db 0
 
 section .bss
     input: resb 10
@@ -23,6 +24,10 @@ _start:
     loop    INPUT_LOOP  
     
     MATH_LOOP:
+
+    pop     ebx
+    add     sum, ebx
+
     loop    MATH_LOOP 
 
     mov     eax, 1               ; system call number (sys_exit) 

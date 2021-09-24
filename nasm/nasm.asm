@@ -16,7 +16,6 @@ _start:
     mov     eax, 3        ; invoke SYS_READ (kernel opcode 3)
     int     80h
 
-
     ; System call (sys_write) 
     mov     ecx, input  ; Store arguments to the system cal,  move the memory address of sum into ecx
     mov     edx, 1     ; number of bytes to write 
@@ -30,4 +29,4 @@ _start:
     ; System call (sys_exit)
     mov     eax, 1     ; system call number (sys_exit) 
     int     0x80       ; call kernel
-    
+   

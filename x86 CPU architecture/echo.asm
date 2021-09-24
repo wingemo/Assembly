@@ -11,12 +11,12 @@ section .text
 _start:
 
     ; System call (sys_open) 
-    mov     ecx, 0         ; Open file from lesson 24
+    mov     ecx, 0        ; Open file from lesson 24
     mov     ebx, filename
     mov     eax, 5
     int     80h
 
-    mov     [f_id], eax.   ; Save file descriptor
+    mov     [f_id], eax.  ; Save file descriptor
 
     INPUT_LOOP:
     push    ecx           ; save away the return address

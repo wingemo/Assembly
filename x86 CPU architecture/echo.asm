@@ -9,6 +9,7 @@ section .bss
 section .text   
 _start:
 
+    ; System call (sys_open) 
     mov     ecx, 0              ; Open file from lesson 24
     mov     ebx, filename
     mov     eax, 5

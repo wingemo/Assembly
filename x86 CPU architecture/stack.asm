@@ -22,6 +22,6 @@ _start:
     
     loop    INPUT_LOOP  
     
-    mov     eax, 1       ; system call number (sys_exit) 
-    int     0x80         ; call kernel
+    mov     eax, 1               ; system call number (sys_exit) 
+    int     0x80                 ; call kernel
   

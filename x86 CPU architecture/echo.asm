@@ -16,7 +16,7 @@ _start:
     mov     eax, 5
     int     80h
 
-    mov     [f_id], eax
+    mov     [f_id], eax.   ; Save file descriptor
 
     INPUT_LOOP:
     push    ecx           ; save away the return address

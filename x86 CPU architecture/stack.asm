@@ -22,6 +22,9 @@ _start:
     
     loop    INPUT_LOOP  
     
+    MATH_LOOP:
+    loop    MATH_LOOP 
+
     mov     eax, 1               ; system call number (sys_exit) 
     int     0x80                 ; call kernel
   

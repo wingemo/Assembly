@@ -2,6 +2,7 @@ global _start
 
 SECTION .data
     file db 'data.txt', 0h    
+    f_id dq 0 ; File descriptor
 
 section .bss
     input: resb 4   
@@ -10,10 +11,12 @@ section .text
 _start:
 
     ; System call (sys_open) 
-    mov     ecx, 0              ; Open file from lesson 24
+    mov     ecx, 0         ; Open file from lesson 24
     mov     ebx, filename
     mov     eax, 5
     int     80h
+
+    mov     [f_id], eax
 
     INPUT_LOOP:
     push    ecx           ; save away the return address
@@ -28,7 +31,7 @@ _start:
     ; System call (sys_write)
     mov     edx, 1        ; number of bytes to write - one for each letter of our contents string
     mov     ecx, input    ; move the memory address of our contents string into ecx
-    mov     ebx, file     ; move the file descriptor of the file we created into ebx
+    mov     ebx, f_id     ; move the file descriptor of the file we created into ebx
     mov     eax, 4        ; invoke SYS_WRITE (kernel opcode 4)
     int     80h 
 

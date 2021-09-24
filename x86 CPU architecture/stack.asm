@@ -19,6 +19,7 @@ _start:
     movzx   eax, byte [input]    ; start with the first digit
     sub     eax, '0'
     push    eax                  ; save away the return address
+    
     loop    INPUT_LOOP  
     
     mov     eax, 1       ; system call number (sys_exit) 

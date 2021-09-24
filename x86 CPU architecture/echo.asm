@@ -9,6 +9,11 @@ section .bss
 section .text   
 _start:
 
+    mov     ecx, 0              ; Open file from lesson 24
+    mov     ebx, filename
+    mov     eax, 5
+    int     80h
+
     INPUT_LOOP:
     push    ecx           ; save away the return address
 

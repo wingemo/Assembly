@@ -1,8 +1,6 @@
 global _start
 
 SECTION .data
-    file db 'data.txt', 0h    
-    f_id dq 0              ; File descriptor
 
 section .bss
     input: resb 10

@@ -24,7 +24,7 @@ _start:
     MATH_LOOP:
     pop     ebx 
     cmp     ebx,  0              ; eax = 10?
-    je      finish               ; If true finish
+    je      FINISH               ; If true finish
     add     sum,  ebx
     loop    MATH_LOOP 
     

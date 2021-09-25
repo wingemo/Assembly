@@ -25,18 +25,20 @@ _start:
     
     MATH_LOOP:
 
-    pop     ebx
-    add     sum, ebx
+    pop     ebx 
+    cmp     ebx,  0              ; eax = 10?
+    je      finish               ; If true finish
+    add     sum,  ebx
 
     loop    MATH_LOOP 
     
-    ; System call (sys_write) 
+    FINISH: 
+
     mov     ecx, input           ; Store arguments to the system cal,  move the memory address of sum into ecx
     mov     edx, 1               ; number of bytes to write 
     mov     ebx, 1               ; Store arguments to the system cal, write to the STDOUT file
     mov     eax, 4               ; system call number (sys_write) 
-    int     0x80                 ; call kernel
-
+    int     0x80                 ; call krenel
 
     mov     eax, 1               ; system call number (sys_exit) 
     int     0x80                 ; call kernel

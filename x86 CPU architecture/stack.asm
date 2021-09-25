@@ -9,8 +9,7 @@ section .bss
 section .text   
 _start:
 
-    INPUT_LOOP:
-
+    INPUT_LOOP: 
     mov     edx, 10              ; number of bytes to read
     mov     ecx, input           ; reserved space to store our input (known as a buffer)
     mov     ebx, 0               ; write to the STDIN file
@@ -23,7 +22,6 @@ _start:
     loop    INPUT_LOOP  
     
     MATH_LOOP:
-
     pop     ebx 
     cmp     ebx,  0              ; eax = 10?
     je      finish               ; If true finish
@@ -31,7 +29,6 @@ _start:
     loop    MATH_LOOP 
     
     FINISH: 
-
     mov     ecx, input           ; Store arguments to the system cal,  move the memory address of sum into ecx
     mov     edx, 1               ; number of bytes to write 
     mov     ebx, 1               ; Store arguments to the system cal, write to the STDOUT file

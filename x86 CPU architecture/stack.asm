@@ -29,7 +29,7 @@ _start:
     loop    MATH_LOOP 
     
     FINISH: 
-    mov     ecx, input           ; Store arguments to the system cal,  move the memory address of sum into ecx
+    mov     ecx, sum          ; Store arguments to the system cal,  move the memory address of sum into ecx
     mov     edx, 1               ; number of bytes to write 
     mov     ebx, 1               ; Store arguments to the system cal, write to the STDOUT file
     mov     eax, 4               ; system call number (sys_write) 

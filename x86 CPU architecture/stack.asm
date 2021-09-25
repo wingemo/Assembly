@@ -20,7 +20,6 @@ _start:
     movzx   eax, byte [input]    ; start with the first digit
     sub     eax, '0'
     push    eax                  ; save away the return address
-    
     loop    INPUT_LOOP  
     
     MATH_LOOP:
@@ -29,7 +28,6 @@ _start:
     cmp     ebx,  0              ; eax = 10?
     je      finish               ; If true finish
     add     sum,  ebx
-
     loop    MATH_LOOP 
     
     FINISH: 

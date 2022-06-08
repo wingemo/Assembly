@@ -21,11 +21,6 @@ The program should first turn on all the odd red lights and then the even red li
 Every fifth time all the green lights turn on. This should be repeated 
 infinitely until the program is canceled outside. 
 
-## Binary :fish:
-
-A project where I convert high level code to machine instructions 
-becouse i want to understand how things work behind the scenes.
-
 ## Documentation :man_student:
 
 - [Nios II Processor Reference Guide](https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/hb/nios2/n2cpu_nii5v1.pdf) 

@@ -3,7 +3,8 @@
 ; Description: Reads input from the standard input (stdin).
 ; Parameters:
 ;   - rsi: Address of the buffer size parameter
-; Return Value: None
+; Return Value: 
+;   - rax: Content of r8 register (stdin content)
 ;--------------------------------------------------------------
 section .text
     global read_input

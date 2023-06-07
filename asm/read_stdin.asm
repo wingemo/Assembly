@@ -7,7 +7,7 @@
 ;   - rax: Content of r8 register (stdin content)
 ;--------------------------------------------------------------
 section .text
-    global read_input
+    global read_stdin
 
 read_stdin:
     mov rax, 0        ; sys_read

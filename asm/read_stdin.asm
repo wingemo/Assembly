@@ -8,4 +8,7 @@ read_stdin:
     mov rdx, [rsi]    ; Load buffer_size from the parameter
     syscall           ; Make the system call
 
+    ; Save the stdin content to a register (e.g., r8)
+    mov r8, rax
+
     ret

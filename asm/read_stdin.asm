@@ -1,5 +1,10 @@
-; Read from stdin (standard input)
-
+;--------------------------------------------------------------
+; Subroutine: read_stdin
+; Description: Reads input from the standard input (stdin).
+; Parameters:
+;   - rsi: Address of the buffer size parameter
+; Return Value: None
+;--------------------------------------------------------------
 section .text
     global read_input
 

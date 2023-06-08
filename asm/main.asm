@@ -1,5 +1,5 @@
 section .data
-    buffer      resb 64    ; Buffer for input/
+    buffer resb 64         ; Buffer for input
 
 section .text
     extern read_stdin

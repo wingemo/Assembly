@@ -8,7 +8,7 @@ section .text
     global _start
 
 _start:
-    call setup_stack               ; Call the setup_stack subroutine
+    call setup_stack                 ; Call the setup_stack subroutine
 
     mov  rdi, buffer                 ; Pass buffer as the parameter
     call subroutine_stdin            ; Call the read_stdin subroutine

@@ -1,6 +1,6 @@
 ;--------------------------------------------------------------
-; Subroutine: exit_program
-; Description: Exits the program.
+; Subroutine: terminate
+; Description: Terminate the program.
 ; Parameters: None
 ; Return Value: None
 ;--------------------------------------------------------------

@@ -1,3 +1,9 @@
+;--------------------------------------------------------------
+; Subroutine: exit_program
+; Description: Exits the program.
+; Parameters: None
+; Return Value: None
+;--------------------------------------------------------------
 section .text
     global exit_program
 

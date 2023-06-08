@@ -1,6 +1,3 @@
-section .data
-    buffer resb 64                   ; Buffer for input
-
 section .text
     extern sub_stdin
     extern sub_terminate

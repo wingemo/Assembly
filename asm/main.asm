@@ -1,7 +1,5 @@
 section .data
-    ; Buffer for input/output
-    buffer      resb 64
-    buffer_size equ 64
+    buffer      resb 64    ; Buffer for input/
 
 section .text
     extern read_stdin
@@ -9,10 +7,7 @@ section .text
     global _start
 
 _start:
-    ; Call the read_stdin subroutine
     mov rdi, buffer       ; Pass buffer as the parameter
-    mov rsi, buffer_size  ; Pass buffer_size as the parameter
-    call read_stdin
+    call read_stdin       ; Call the read_stdin subroutine
 
-    ; Call the exit_program subroutine
-    call exit_program
+    call exit_program     ; Call the exit_program subroutine

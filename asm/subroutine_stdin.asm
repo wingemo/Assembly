@@ -1,5 +1,5 @@
 ;--------------------------------------------------------------
-; Subroutine: read_stdin
+; Subroutine: stdin
 ; Description: Reads input from the standard input (stdin).
 ; Parameters:
 ;   - rsi: Address of the buffer size parameter

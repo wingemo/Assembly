@@ -7,7 +7,7 @@
 ;   - rax: Content of r8 register (stdin content)
 ;--------------------------------------------------------------
 section .data
-    buffer resb 64        ; Buffer for input
+    buffer resb 64       ; Buffer for input
 
 section .text
     global read_stdin

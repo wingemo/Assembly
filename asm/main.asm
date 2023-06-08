@@ -3,7 +3,7 @@ section .data
 
 section .text
     extern subroutine_stdin
-    extern exit_program
+    extern subroutine_terminate
     global _start
 
 section .bss
@@ -17,7 +17,7 @@ _start:
     call subroutine_stdin            ; Call the read_stdin subroutine
     mov  byte [rsp - 1], r8          ; Push the value r8 onto the stack
 
-    call exit_program                ; Call the exit_program subroutine
+    call subroutine_terminate        ; Call the exit_program subroutine
     
 
 

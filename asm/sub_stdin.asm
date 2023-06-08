@@ -10,7 +10,7 @@ section .data
     buffer resb 64       ; Buffer for input
 
 section .text
-    global read_stdin
+    global sub_stdin
 
 read_stdin:
     mov rax, 0           ; sys_read
